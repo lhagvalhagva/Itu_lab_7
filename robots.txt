@@ -1,11 +1,15 @@
+
 User-agent: *
 Allow: /
 
-Sitemap: https://lhagvalhagva.github.io/Itu_lab_7/sitemap.xml
-
+Disallow: /css/
+Disallow: /js/
+Disallow: /admin/
+Disallow: /private/
 
 Allow: /images/
 
+Crawl-delay: 10
 
-Allow: /*.css$
-Allow: /*.js$ 
+# Sitemap location
+Sitemap: https://lhagvalhagva.github.io/Itu_lab_7/sitemap.xml

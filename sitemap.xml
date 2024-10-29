@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-      <loc>https://lhagvalhagva.github.io/Itu_lab_7/</loc>
-      <lastmod>2024-03-19</lastmod>
-      <changefreq>daily</changefreq>
-      <priority>1.0</priority>
-   </url>
-   <!-- Add more URLs if you have multiple pages -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <url>
+        <loc>https://lhagvalhagva.github.io/Itu_lab_7/</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <!-- Add images for this page -->
+        <image:image>
+            <image:loc>https://lhagvalhagva.github.io/Itu_lab_7/images/tom_zurag.webp</image:loc>
+            <image:title>Louis Vuitton Hero Image</image:title>
+        </image:image>
+    </url>
+
 </urlset>
