@@ -3,7 +3,8 @@
    <url>
       <loc>https://lhagvalhagva.github.io/Itu_lab_7/</loc>
       <lastmod>2024-03-19</lastmod>
-      <changefreq>weekly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>1.0</priority>
    </url>
-</urlset> 
+   <!-- Add more URLs if you have multiple pages -->
+</urlset>
