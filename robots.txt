@@ -1,12 +1,11 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
 Sitemap: https://lhagvalhagva.github.io/Itu_lab_7/sitemap.xml
 
-# Allow search engines to index images
+
 Allow: /images/
 
-# Allow CSS and JavaScript files
+
 Allow: /*.css$
 Allow: /*.js$ 
