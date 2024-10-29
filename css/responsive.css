@@ -1,4 +1,3 @@
-/* Large Devices (Desktops & Laptops) */
 @media (max-width: 1200px) {
   .product-grid,
   .sub-hero-grid {
@@ -16,7 +15,6 @@
   }
 }
 
-/* Medium Devices (Tablets) */
 @media (max-width: 768px) {
   .main-nav {
     position: relative;
@@ -33,12 +31,10 @@
     font-size: 24px;
   }
 
-  /* Hide default menu items on mobile */
   .nav-left {
     display: none;
   }
 
-  /* Show only search and menu icons on right */
   .nav-right {
     position: absolute;
     top: 15px;
@@ -47,7 +43,7 @@
   }
 
   .nav-right .menu-item span {
-    display: none; /* Hide text, show only icons */
+    display: none;
   }
 
   .nav-right .menu-item i {
@@ -76,7 +72,6 @@
   }
 }
 
-/* Small Devices (Mobile phones) */
 @media (max-width: 480px) {
   .main-nav {
     padding: 10px;
@@ -130,7 +125,6 @@
   }
 }
 
-/* Height-based Media Queries */
 @media (max-height: 600px) {
   .hero {
     height: auto;
