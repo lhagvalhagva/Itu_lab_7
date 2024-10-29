@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Louis Vuitton Clone</title>
+    <title>
+      Louis Vuitton | Luxury Fashion, Leather Goods, and Accessories
+    </title>
+    <meta
+      name="description"
+      content="Discover Louis Vuitton's luxury collection of leather goods, fashion, accessories, jewelry and more. Shop the latest collections and exclusive items."
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link
@@ -11,9 +21,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/WebPage">
     <header>
-      <nav class="main-nav">
+      <nav
+        class="main-nav"
+        itemscope
+        itemtype="http://schema.org/SiteNavigationElement"
+      >
         <div class="nav-left">
           <a href="#" class="menu-item">WOMEN</a>
           <a href="#" class="menu-item">MEN</a>
@@ -39,7 +53,7 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" itemscope itemtype="http://schema.org/ImageObject">
         <div class="hero-content">
           <h2>SPRING-SUMMER 2024</h2>
           <p>THE NEW COLLECTION</p>
@@ -47,65 +61,109 @@
         </div>
       </section>
 
-      <section class="featured-products">
+      <section
+        class="featured-products"
+        itemscope
+        itemtype="http://schema.org/ItemList"
+      >
         <div class="product-grid">
           <!-- Row 1 -->
-          <div class="product-item">
+          <div
+            class="product-item"
+            itemscope
+            itemtype="http://schema.org/Product"
+          >
             <img
+              itemprop="image"
               src="./images/Men_LG_WW_HP_Category_Push_V20240531_DII.webp"
               alt="Product 1"
             />
-            <p>Iconic Handbag</p>
+            <p itemprop="name">Iconic Handbag</p>
           </div>
-          <div class="product-item">
+          <div
+            class="product-item"
+            itemscope
+            itemtype="http://schema.org/Product"
+          >
             <img
+              itemprop="image"
               src="./images/Men_Fashion_JWL_WW_HP_Category_Push_V20240726_DII.webp"
               alt="Product 2"
             />
-            <p>Classic Collection</p>
+            <p itemprop="name">Classic Collection</p>
           </div>
-          <div class="product-item">
+          <div
+            class="product-item"
+            itemscope
+            itemtype="http://schema.org/Product"
+          >
             <img
+              itemprop="image"
               src="./images/Men_Shoes_Sneakers_WW_HP_Category_Push_20240425_DII.webp"
               alt="Product 3"
             />
-            <p>Signature Tote</p>
+            <p itemprop="name">Signature Tote</p>
           </div>
-          <div class="product-item">
+          <div
+            class="product-item"
+            itemscope
+            itemtype="http://schema.org/Product"
+          >
             <img
+              itemprop="image"
               src="./images/Men_SLG_WW_HP_Category_Push_20240425_DII.webp"
               alt="Product 4"
             />
-            <p>Elegant Design</p>
+            <p itemprop="name">Elegant Design</p>
           </div>
           <!-- Row 2 -->
-          <div class="product-item">
+          <div
+            class="product-item"
+            itemscope
+            itemtype="http://schema.org/Product"
+          >
             <img
+              itemprop="image"
               src="./images/Women_SLG_WW_HP_Category_Push_20240425_DII.webp"
               alt="Product 5"
             />
-            <p>Timeless Style</p>
+            <p itemprop="name">Timeless Style</p>
           </div>
-          <div class="product-item">
+          <div
+            class="product-item"
+            itemscope
+            itemtype="http://schema.org/Product"
+          >
             <img
+              itemprop="image"
               src="./images/Perfumes_Ombre_Nomade_HP_Category_Push_20241018_DII.webp"
               alt="Product 6"
             />
-            <p>Modern Edge</p>
+            <p itemprop="name">Modern Edge</p>
           </div>
-          <div class="product-item">
+          <div
+            class="product-item"
+            itemscope
+            itemtype="http://schema.org/Product"
+          >
             <img
+              itemprop="image"
               src="./images/Women_Bags_WW_HP_Category_Push_20240712_DII.webp"
               alt="Product 7"
             />
-            <p>Versatile Choice</p>
+            <p itemprop="name">Versatile Choice</p>
           </div>
-          <div class="product-item">
+          <div
+            class="product-item"
+            itemscope
+            itemtype="http://schema.org/Product"
+          >
             <img
+              itemprop="image"
               src="./images/Women_SLG_WW_HP_Category_Push_20240425_DII.webp"
               alt="Product 8"
             />
-            <p>Premium Selection</p>
+            <p itemprop="name">Premium Selection</p>
           </div>
         </div>
       </section>
